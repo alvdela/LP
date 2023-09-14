@@ -1,0 +1,17 @@
+procedure timedLight1
+ woit until signal signal1,
+ set on light1,
+ start timer1 10,
+ wait while timer,
+ set hola light1;
+
+procedure timedLight2
+ wait until signal signal1,
+ set on light1,
+ ??? timer1 10,
+ wait while timer,
+ set off light1;
+
+
+run timedLight1,
+print "hola mundo".
